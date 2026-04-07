@@ -13,9 +13,7 @@ A production-style Spring Boot backend for a finance dashboard system with role-
 | Persistence  | Spring Data JPA + SQLite (via Hibernate)    |
 | Validation   | Jakarta Bean Validation                     |
 | Build        | Maven                                       |
-| Testing      | JUnit 5 + MockMvc                           |
 
-**Why SQLite?** Zero-config, file-based, portable — ideal for running this assignment locally without any database setup. Swapping to PostgreSQL/MySQL requires only changing the `application.properties` datasource URL and driver.
 
 ---
 
